@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="매니져">
+      <UniqueIdentifier>{45fc7e26-585a-434a-843e-e459e46be338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인게임">
+      <UniqueIdentifier>{e5e7106c-c557-4f2a-bf2f-362d037f9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="유틸">
+      <UniqueIdentifier>{e75bf56a-db97-4fd2-8479-b6dfb045232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample">
+      <UniqueIdentifier>{3b01e1df-d401-4408-854b-3d95405ca4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{de59bd84-490f-4de3-b2d7-ca1c9eac4440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\타이머">
+      <UniqueIdentifier>{26cd077e-757e-4ad7-a19a-732334387876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\게임노드">
+      <UniqueIdentifier>{c74581e2-587b-42c6-b090-558f511f1e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\stdafx">
+      <UniqueIdentifier>{06a3d718-c25a-4a79-8877-9330efad880c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이미지">
+      <UniqueIdentifier>{60422429-1dd3-46ec-8b7f-88632224d0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\프로그래스 바">
+      <UniqueIdentifier>{1f3921e4-c877-4df3-bca3-3c86de7df3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비">
+      <UniqueIdentifier>{9c786e57-85ea-4c08-9391-e7162fa13e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\enemy">
+      <UniqueIdentifier>{25086690-8642-4c2f-89ae-899688d22b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\player">
+      <UniqueIdentifier>{241fe692-fc0c-4f00-bc6f-5ffe8787b0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\bullet">
+      <UniqueIdentifier>{6e374d83-df24-4849-89d1-b7f8a7322ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\map">
+      <UniqueIdentifier>{242f90b8-83c7-48d3-8243-997bf917cc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object">
+      <UniqueIdentifier>{3f2405af-6079-4e69-aa37-3b37efc44298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\Manager">
+      <UniqueIdentifier>{fdb3b770-2e3b-4436-b4ec-e9ae5d084d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\enemy\Manager">
+      <UniqueIdentifier>{fa3299d6-fce1-46cf-aefa-338b9da916a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\애니메이션">
+      <UniqueIdentifier>{1dd4dd11-5003-4723-acb6-4a80bc72914d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\scene">
+      <UniqueIdentifier>{805f7d29-75a7-43ee-8096-a527e6c63029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\box">
+      <UniqueIdentifier>{ce86af43-5737-4fda-928b-74d11242f611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\item">
+      <UniqueIdentifier>{617a00fb-735e-44eb-b79c-8c53a1aeb0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\enemy\파생몬스터">
+      <UniqueIdentifier>{b8f3715f-7076-4312-84dd-a71f8ef045a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\bullet\Manager">
+      <UniqueIdentifier>{b26513e8-7b2b-4451-979f-4caa0f73080a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\mapObj">
+      <UniqueIdentifier>{827f2d8a-b032-4c8b-89f7-adefbd79cae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\mapObj\맵폭발">
+      <UniqueIdentifier>{c36011ce-4a27-4cec-89d6-35d6aebfd802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="커비\object\mapObj\맵오브젝트">
+      <UniqueIdentifier>{022616bd-516f-4160-a357-b71f2e128215}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>메인게임</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>API\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpSample.cpp">
+      <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="secondScene.cpp">
+      <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSample.cpp">
+      <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>API\타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>API\게임노드</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>API\프로그래스 바</Filter>
+    </ClCompile>
+    <ClCompile Include="mapManager.cpp">
+      <Filter>커비\map</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>커비\player</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldObject.cpp">
+      <Filter>커비\object</Filter>
+    </ClCompile>
+    <ClCompile Include="objectManager.cpp">
+      <Filter>커비\object\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>커비\enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>커비\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>API\애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="playScene.cpp">
+      <Filter>커비\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="boomBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="StarBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="stonBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="ironBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="sandBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="lifeItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="candyItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="maxItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="meatItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="drinkItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="cherryItem.cpp">
+      <Filter>커비\object\item</Filter>
+    </ClCompile>
+    <ClCompile Include="boxEnemy.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="brontoburt.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="frog.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="waddle.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="burning.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="chilly.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="spark.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletManager.cpp">
+      <Filter>커비\bullet\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>커비\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="mobBox.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoom0.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoom0_1.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoomleft.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoomMid.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoomRight.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="mapObject01.cpp">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="mapObject02.cpp">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="mapObject02_1.cpp">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="mapObject03.cpp">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoom2.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="woodboss.cpp">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>커비\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBoom2_1.cpp">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="ending.cpp">
+      <Filter>커비\object\box</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFiunction.h">
+      <Filter>유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>메인게임</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>API\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpSample.h">
+      <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="secondScene.h">
+      <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberSample.h">
+      <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>API\타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>API\게임노드</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>API\프로그래스 바</Filter>
+    </ClInclude>
+    <ClInclude Include="mapManager.h">
+      <Filter>커비\map</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>커비\player</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldObject.h">
+      <Filter>커비\object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectManager.h">
+      <Filter>커비\object\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>커비\enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>커비\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>API\애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="playScene.h">
+      <Filter>커비\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="boomBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="StarBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="stonBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="ironBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="sandBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="lifeItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="candyItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="maxItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="meatItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="drinkItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="cherryItem.h">
+      <Filter>커비\object\item</Filter>
+    </ClInclude>
+    <ClInclude Include="boxEnemy.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="brontoburt.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="frog.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="waddle.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="burning.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="chilly.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="spark.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletManager.h">
+      <Filter>커비\bullet\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>커비\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="mobBox.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoom0.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoom0_1.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoomleft.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoomMid.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoomRight.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="mapObject01.h">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="mapObject02.h">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="mapObject02_1.h">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="mapObject03.h">
+      <Filter>커비\object\mapObj\맵오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoom2.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="woodboss.h">
+      <Filter>커비\enemy\파생몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>커비\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBoom2_1.h">
+      <Filter>커비\object\mapObj\맵폭발</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="ending.h">
+      <Filter>커비\object\box</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
